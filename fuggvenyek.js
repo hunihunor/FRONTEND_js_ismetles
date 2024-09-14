@@ -10,18 +10,6 @@ export function cimKiiras(cim) {
 
   /* készíts függvényt, akivel a kutya1 adatait irhatjuk ki a tartalom nevezető class-ba div-ben legye, a név, h3-as címben a kor p, nem p-tagben*/
 
-  export function egyKutyaKiiras(kutya) {
-    const divElem = $(".tartalom");   
-    divElem.append(`<div class="col-lg-4 col-md-6 card"> 
-                        <div class="card-body">
-                            <h3 class="card-title">${kutya.nev}</h3>
-                            <p class="card-text">kor: ${kutya.kor}</p>
-                            <p class="card-text">nem: ${kutya.nem}</p>
-                            <button class="kivalaszt btn btn-success">Kiválaszt</button>
-                        </div>
-                    </div>`);
-  }
-
   /* 
   <div class="card" style="width: 18rem;">
   <img src="..." class="card-img-top" alt="...">
